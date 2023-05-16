@@ -1,0 +1,90 @@
+*{
+  font-family: 'poppins' ,sans-serif;
+}
+body{
+  background: url("online-service-centre.webp");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url(https://t4.ftcdn.net/jpg/01/19/11/55/360_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg);
+  background-repeat: no-repeat;
+  
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+.container{
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px 0 15px;
+  
+}
+span{
+  color:black;
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 10px 0;
+}
+header{
+  color: #911010;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 10px 0;
+}
+
+.input-field .input{
+  height: 45px;
+  width: 87%;
+  border: none;
+  border-radius: 30px;
+  color: #10912e;
+  font-size: 15px;
+  padding: 0 0 0 45px;
+  background: rgba(255,255,255,0.1);
+  outline: none;
+}
+i{
+  position: relative;
+  top: -33px;
+  left: 17px;
+  color: #bb1b1b;
+}
+::-webkit-input-placeholder{
+  color: #ab0b0b;
+}
+.submit{
+  border: none;
+  border-radius: 30px;
+  font-size: 15px;
+  height: 45px;
+  outline: none;
+  width: 100%;
+  color: rgb(148, 18, 18);
+  background: rgba(199, 14, 14, 0.7);
+  cursor: pointer;
+  transition: .3s ;
+}
+.submit:hover{
+  box-shadow: 1px 5px 7px 1px rgba(167, 13, 13, 0.2);
+}
+.two-col{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #e50619;
+  font-size: small;
+  margin-top: 10px;
+}
+.one{
+  display: flex;
+}
+label a{
+  text-decoration: none;
+  color: #ee0d0d;
+}
